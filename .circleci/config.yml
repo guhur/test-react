@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run:
           name: test javascript exercices
-          command: npm --save install jest && jest javascript/test.js
+          command: npm --save install jest && npm test
